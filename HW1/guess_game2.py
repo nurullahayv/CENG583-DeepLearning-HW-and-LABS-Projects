@@ -5,7 +5,7 @@ def guess_game():  # sourcery skip: hoist-similar-statement-from-if
 
   game_over = False
   # Generate a random number between 0 and 100.
-  number = 5#random.randint(0, 100)
+  number = random.randint(0, 100)
 
   # Initialize the number of guesses.
   playername = str(input("What is your name: "))
